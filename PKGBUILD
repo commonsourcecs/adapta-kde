@@ -8,7 +8,7 @@ url="https://gitlab.com/cscs/adaptabreath-kde"
 license=('GPL3')
 #depends=('kwin' 'plasma-desktop' 'kvantum-qt5' 'papirus-icon-theme')
 optdepends=('kvantum-qt5: For the Konsole color scheme'
-            'adapta-maia-theme: Matching GTK theme')
+            'adapta-breath-theme: Matching GTK theme')
 makedepends=('git' 'make')
 #conflicts=('adapta-kde' 'kvantum-theme-adapta' 'adapta-aurorae-theme-git')
 source=("git+${url}.git")
