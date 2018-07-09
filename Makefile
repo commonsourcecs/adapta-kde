@@ -24,6 +24,7 @@ uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreathLuna
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreathNokto
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/AdaptaBreath
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/AdaptaBreathLuna
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.kde.adaptabreath.desktop
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/AdaptaBreath
 
