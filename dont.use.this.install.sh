@@ -1,3 +1,5 @@
+# Dont use this file ... it points to original github. Kept only for backup or future use.
+
 #!/bin/sh
 
 set -e
@@ -15,11 +17,13 @@ cat <<- EOF
     aa   aa   dd   dd   aa   aa   pp   pp     tt      aa   aa
     aa   aa     ddddd     aaaaa   ppppp         ttt     aaaaa
                                   pp
-    kk   kk   ddddd     eeeeeee   pp
-    kk kk     dd   dd   ee
-    kkk       dd   dd   eeeee
-    kk kk     dd   dd   ee
-    kk   kk   ddddd     eeeeeee
+                                  pp
+                                  
+    BBBBB     RRRRRR    EEEEEEE     AAA     TTTTTTT   HH   HH 
+    BB   B    RR   RR   EE         AAAAA      TTT     HH   HH 
+    BBBBBB    RRRRRR    EEEEE     AA   AA     TTT     HHHHHHH 
+    BB   BB   RR  RR    EE        AAAAAAA     TTT     HH   HH 
+    BBBBBB    RR   RR   EEEEEEE   AA   AA     TTT     HH   HH 
 
 
 
@@ -52,18 +56,14 @@ _download() {
 
 _uninstall() {
     _msg "Deleting $gh_desc ..."
-    _rm "$PREFIX/share/aurorae/themes/Adapta"
-    _rm "$PREFIX/share/color-schemes/Adapta.colors"
-    _rm "$PREFIX/share/color-schemes/AdaptaNokto.colors"
-    _rm "$PREFIX/share/konsole/Adapta.colorscheme"
-    _rm "$PREFIX/share/konsole/AdaptaNokto.colorscheme"
-    _rm "$PREFIX/share/Kvantum/Adapta"
-    _rm "$PREFIX/share/Kvantum/AdaptaNokto"
-    _rm "$PREFIX/share/plasma/desktoptheme/Adapta"
-    _rm "$PREFIX/share/plasma/look-and-feel/com.github.varlesh.adapta"
-    _rm "$PREFIX/share/wallpapers/Adapta"
-    _rm "$PREFIX/share/yakuake/skins/adapta"
-    _rm "$PREFIX/share/yakuake/skins/adapta-nokto"
+    _rm "$PREFIX/share/aurorae/themes/AdaptaBreath"
+    _rm "$PREFIX/share/color-schemes/AdaptaBreath.colors"
+    _rm "$PREFIX/share/color-schemes/AdaptaBreathNokto.colors"
+    _rm "$PREFIX/share/Kvantum/AdaptaBreath"
+    _rm "$PREFIX/share/Kvantum/AdaptaBreathNokto"
+    _rm "$PREFIX/share/plasma/desktoptheme/AdaptaBreath"
+    _rm "$PREFIX/share/plasma/look-and-feel/org.kde.adaptabreath.desktop"
+    _rm "$PREFIX/share/wallpapers/AdaptaBreath"
 }
 
 _install() {
@@ -71,11 +71,9 @@ _install() {
     sudo cp -R \
         "$temp_dir/$gh_repo-master/aurorae" \
         "$temp_dir/$gh_repo-master/color-schemes" \
-        "$temp_dir/$gh_repo-master/konsole" \
         "$temp_dir/$gh_repo-master/Kvantum" \
         "$temp_dir/$gh_repo-master/plasma" \
         "$temp_dir/$gh_repo-master/wallpapers" \
-        "$temp_dir/$gh_repo-master/yakuake" \
         "$PREFIX/share"
 }
 

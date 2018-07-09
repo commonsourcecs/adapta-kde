@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= aurorae color-schemes konsole Kvantum plasma wallpapers yakuake
+THEMES ?= aurorae color-schemes Kvantum plasma wallpapers
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
@@ -15,18 +15,17 @@ install:
 	cp -R $(THEMES) $(DESTDIR)$(PREFIX)/share
 
 uninstall:
-	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/Adapta
-	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/Adapta.colors
-	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaNokto.colors
-	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/Adapta.colorscheme
-	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/AdaptaNokto.colorscheme
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/Adapta
-	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaNokto
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/Adapta
-	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/com.github.varlesh.adapta
-	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/Adapta
-	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/adapta
-	-rm -rf $(DESTDIR)$(PREFIX)/share/yakuake/skins/adapta-nokto
+	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/AdaptaBreath
+	-rm -rf $(DESTDIR)$(PREFIX)/share/aurorae/themes/AdaptaBreathLuna
+	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreath.colors
+	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreathLuna.colors
+	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreathNokto.colors
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreath
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreathLuna
+	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreathNokto
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/AdaptaBreath
+	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.kde.adaptabreath.desktop
+	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/AdaptaBreath
 
 _get_version:
 	$(eval VERSION := $(shell git show -s --format=%cd --date=format:%Y%m%d HEAD))

@@ -8,27 +8,13 @@ Adapta KDE - This is a port of the popular [GTK theme Adapta](https://github.com
 In this repository you'll find:
 
 - Aurorae Theme
-- Konsole Color Schemes
 - Kvantum Themes
 - Plasma Color Schemes
 - Plasma Desktop Theme
 - Plasma Look-and-Feel Settings
 - Wallpaper
-- Yakuake Skins
 
 ## Installation
-
-### Ubuntu and derivatives
-
-You can install adapta-kde from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus):
-
-```
-sudo add-apt-repository ppa:papirus/papirus
-sudo apt-get update
-sudo apt-get install --install-recommends adapta-kde
-```
-
-or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/papirus/+packages?field.name_filter=adapta-kde).
 
 ### Adapta KDE Installer
 
@@ -37,26 +23,14 @@ Use the script to install the latest version directly from this repo (independen
 #### Install
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/install.sh | sh
+install.sh | sh
 ```
 
 #### Uninstall
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/install.sh | uninstall=true sh
+install.sh | uninstall=true sh
 ```
-
-### Third-party packages
-
-Packages in this section are not part of the official repositories. If you have a trouble or a question please contact with package maintainer.
-
-| **Distro** | **Maintainer** | **Package** |
-|:-----------|:---------------|:------------|
-| Arch Linux | Bruno Pagani | `sudo pacman -S adapta-kde kvantum-theme-adapta` <sup>[[link](https://www.archlinux.org/packages/community/any/adapta-kde/)]</sup> |
-| Arch Linux | Jan Neumann | [adapta-kde-git](https://aur.archlinux.org/packages/adapta-kde-git) <sup>AUR</sup> |
-| openSUSE | Konstantin Voinov | [adapta-kde](https://software.opensuse.org/download.html?project=home:kill_it&package=adapta-kde) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/adapta-kde)]</sub> |
-
-**NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
 
 ## Recommendations
 

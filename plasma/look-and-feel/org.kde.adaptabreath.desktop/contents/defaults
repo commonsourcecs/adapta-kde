@@ -1,0 +1,17 @@
+[kdeglobals][KDE]
+widgetStyle=breeze
+
+[kdeglobals][General]
+ColorScheme=AdaptaBreath
+
+[kdeglobals][Icons]
+Theme=Papirus-Adapta-Maia
+
+[plasmarc][Theme]
+name=AdaptaBreath
+
+[kwinrc][org.kde.kdecoration2]
+theme=__aurorae__svg__AdaptaBreath
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
