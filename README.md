@@ -1,42 +1,38 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/preview.png" alt="Preview Adapta KDE"/>
-  <sup><sub>Screenshot: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kvantum</a> | Kvantum Theme: Adapta Nokto | Aurorae decoration: Adapta | Plasma Theme: Adapta | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto</a> | File Manager: Dolphin | Dock: <a href="https://github.com/psifidotos/Latte-Dock">Latte Dock</a> | Calendar: <a href="https://github.com/Zren/plasma-applet-eventcalendar">Event Calendar</a></sub></sup>
+  <img src="https://gitlab.com/cscs/adaptabreath-kde/raw/master/preview.png" alt="Preview AdaptaBreath KDE"/>
 </p>
 
-Adapta KDE - This is a port of the popular [GTK theme Adapta](https://github.com/adapta-project/adapta-gtk-theme) for Plasma 5 desktop with a few additions and extras.
+AdaptaBreath KDE - This is a fork of the popular [Adapta KDE](https://github.com/PapirusDevelopmentTeam/adapta-kde) for Plasma 5 desktop with a few additions and extras.
 
 In this repository you'll find:
 
-- Aurorae Theme
+- Aurorae Themes
 - Kvantum Themes
 - Plasma Color Schemes
 - Plasma Desktop Theme
 - Plasma Look-and-Feel Settings
-- Wallpaper
+- Wallpapers
 
 ## Installation
-
-### Adapta KDE Installer
-
-Use the script to install the latest version directly from this repo (independently on your distro):
+You can move the folder to their proper directories manually, or use the Makefile
 
 #### Install
 
 ```
-install.sh | sh
+make install
 ```
 
 #### Uninstall
 
 ```
-install.sh | uninstall=true sh
+make uninstall
 ```
 
 ## Recommendations
 
-- For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
+- This theme provides compatability  with [Kvantum engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
 
-  Run `kvantummanager` to choose and apply **Adapta** or **Adapta Nokto** theme.
+  Run `kvantummanager` to choose and apply theme.
 
 - Install [Papirus-Adapta icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) for a more consistent and beautiful experience.
 
@@ -49,12 +45,6 @@ install.sh | uninstall=true sh
 - Old version qBittorrent (~3.3.1) not used 22px icon size on toolbar (icons will be blurred, update to fresh version for solve this)
 
 - On some propietary video drivers Aurorae have wrong rendering by default with Adapta theme. See more info [here](https://github.com/PapirusDevelopmentTeam/adapta-kde/issues/21)
-
-## Donate
-
-If you like my project, you can donate at:
-
-<span class="paypal"><a href="https://www.paypal.me/varlesh" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
 
 ## License
 
