@@ -13,8 +13,8 @@
    height="32"
    id="svg5048"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="start.svgz">
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="start.svg">
   <defs
      id="defs5050">
     <style
@@ -62,15 +62,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6568543"
-     inkscape:cx="-38.621838"
+     inkscape:cx="2.8322967"
      inkscape:cy="23.114594"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-width="1366"
+     inkscape:window-height="710"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -112,7 +112,7 @@
          inkscape:connector-curvature="0"
          id="rect4153"
          d="m 6,6 0,20 6,0 0,-14 7,0 0,-6 z m 14,0 0,20 6,0 0,-20 z m -7,7 0,13 6,0 0,-13 z"
-         style="fill:#ffffff"
+         style="fill:#22252a;fill-opacity:1"
          sodipodi:nodetypes="ccccccccccccccccc" />
     </g>
   </g>
