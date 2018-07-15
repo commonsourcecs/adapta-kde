@@ -2,7 +2,7 @@
 cursorTheme=maia_cursors
 
 [kdeglobals][General]
-ColorScheme=AdaptaBreath
+ColorScheme=AdaptaBreathLuna
 
 [kdeglobals][KDE]
 widgetStyle=breeze
@@ -15,7 +15,7 @@ LayoutName=big_icons
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__AdaptaBreath
+theme=__aurorae__svg__AdaptaBreathLuna
 
 [plasmarc][Theme]
-name=AdaptaBreath
+name=AdaptaBreathLuna
