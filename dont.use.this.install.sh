@@ -4,8 +4,8 @@
 
 set -e
 
-gh_repo="adapta-kde"
-gh_desc="Adapta KDE"
+gh_repo="adaptabreath-kde"
+gh_desc="AdaptaBreath KDE"
 
 cat <<- EOF
 
@@ -28,7 +28,7 @@ cat <<- EOF
 
 
   $gh_desc
-  https://github.com/PapirusDevelopmentTeam/$gh_repo
+  https://gitlab.com/cscs/$gh_repo
 
 
 EOF
@@ -49,7 +49,7 @@ _rm() {
 _download() {
     _msg "Getting the latest version from GitHub ..."
     wget -O "$temp_file" \
-        "https://github.com/PapirusDevelopmentTeam/$gh_repo/archive/master.tar.gz"
+        "https://gitlab.com/cscs/adaptabreath-kde/-/archive/master/adaptabreath-kde-master.tar.gz"
     _msg "Unpacking archive ..."
     tar -xzf "$temp_file" -C "$temp_dir"
 }
@@ -57,11 +57,15 @@ _download() {
 _uninstall() {
     _msg "Deleting $gh_desc ..."
     _rm "$PREFIX/share/aurorae/themes/AdaptaBreath"
+    _rm "$PREFIX/share/aurorae/themes/AdaptaBreathLuna"
     _rm "$PREFIX/share/color-schemes/AdaptaBreath.colors"
     _rm "$PREFIX/share/color-schemes/AdaptaBreathNokto.colors"
+    _rm "$PREFIX/share/color-schemes/AdaptaBreathLuna.colors"
     _rm "$PREFIX/share/Kvantum/AdaptaBreath"
     _rm "$PREFIX/share/Kvantum/AdaptaBreathNokto"
+    _rm "$PREFIX/share/Kvantum/AdaptaBreathLuna"
     _rm "$PREFIX/share/plasma/desktoptheme/AdaptaBreath"
+    _rm "$PREFIX/share/plasma/desktoptheme/AdaptaBreathLuna"
     _rm "$PREFIX/share/plasma/look-and-feel/org.kde.adaptabreath.desktop"
     _rm "$PREFIX/share/wallpapers/AdaptaBreath"
 }

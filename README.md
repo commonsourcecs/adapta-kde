@@ -2,16 +2,16 @@
   <img src="https://gitlab.com/cscs/adaptabreath-kde/raw/master/preview.png" alt="Preview AdaptaBreath KDE"/>
 </p>
 
-AdaptaBreath KDE - This is a fork of the popular [Adapta KDE](https://github.com/PapirusDevelopmentTeam/adapta-kde) for Plasma 5 desktop with a few additions and extras.
+AdaptaBreath KDE - This is a fork of the popular [Adapta KDE](https://github.com/PapirusDevelopmentTeam/adapta-kde) for Plasma 5 desktop.
 
 In this repository you'll find:
 
 - Aurorae Themes
 - Kvantum Themes
 - Plasma Color Schemes
-- Plasma Desktop Theme
+- Plasma Desktop Themes
 - Plasma Look-and-Feel Settings
-- Wallpapers
+- Wallpaper
 
 ## Installation
 You can move the folder to their proper directories manually, or use the Makefile
