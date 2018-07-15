@@ -20,6 +20,7 @@ uninstall:
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreath.colors
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreathLuna.colors
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreathNokto.colors
+    -rm -r  $(DESTDIR)$(PREFIX)/share/konsole/AdaptaBreath.colorscheme
 	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/AdaptaBreathNokto.colorscheme	
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreath
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreathLuna
