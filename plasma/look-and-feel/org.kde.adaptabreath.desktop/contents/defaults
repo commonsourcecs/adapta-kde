@@ -19,3 +19,7 @@ theme=__aurorae__svg__AdaptaBreath
 
 [plasmarc][Theme]
 name=AdaptaBreath
+
+[ksplashrc][KSplash]
+Engine=KSplashQML
+Theme=org.kde.adaptabreath.desktop
