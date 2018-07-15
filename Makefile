@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= aurorae color-schemes Kvantum plasma wallpapers
+THEMES ?= aurorae color-schemes konsole Kvantum plasma wallpapers
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
@@ -20,6 +20,7 @@ uninstall:
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreath.colors
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreathLuna.colors
 	-rm -r  $(DESTDIR)$(PREFIX)/share/color-schemes/AdaptaBreathNokto.colors
+	-rm -r  $(DESTDIR)$(PREFIX)/share/konsole/AdaptaBreathNokto.colorscheme	
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreath
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreathLuna
 	-rm -rf $(DESTDIR)$(PREFIX)/share/Kvantum/AdaptaBreathNokto
