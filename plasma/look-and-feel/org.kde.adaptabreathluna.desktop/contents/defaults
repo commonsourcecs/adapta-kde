@@ -22,4 +22,4 @@ name=AdaptaBreathLuna
 
 [ksplashrc][KSplash]
 Engine=KSplashQML
-Theme=org.kde.adaptabreath.desktop
+Theme=org.kde.adaptabreathluna.desktop
