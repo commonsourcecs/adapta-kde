@@ -21,7 +21,7 @@ import QtQuick 2.5
 
 Image {
     id: root
-    source: "/usr/share/wallpapers/AdaptaBreath/contents/images/polimanjaro.png"
+    source: "/usr/share/wallpapers/AdaptaBreath/contents/images/polimanjarolt.png"
     fillMode: Image.PreserveAspectCrop
 
     property int stage
