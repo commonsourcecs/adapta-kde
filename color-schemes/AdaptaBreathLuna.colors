@@ -103,7 +103,7 @@ ForegroundPositive=0,150,136
 ForegroundVisited=14,107,87
 
 [General]
-ColorScheme=Breeze
+ColorScheme=AdaptaBreathLuna
 Name=AdaptaBreathLuna
 shadeSortColumn=true
 
