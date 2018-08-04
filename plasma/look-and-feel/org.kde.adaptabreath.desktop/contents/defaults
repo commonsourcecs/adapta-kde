@@ -11,7 +11,7 @@ Theme=Papirus-Adapta-Maia
 widgetStyle=breeze
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.kde.adaptabreath.desktop
+LayoutName=org.kde.breeze.desktop
 
 [kwinrc][WindowSwitcher]
 LayoutName=big_icons
