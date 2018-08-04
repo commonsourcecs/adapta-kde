@@ -4,11 +4,14 @@ cursorTheme=maia_cursors
 [kdeglobals][General]
 ColorScheme=AdaptaBreath
 
+[kdeglobals][Icons]
+Theme=Papirus-Adapta-Maia
+
 [kdeglobals][KDE]
 widgetStyle=breeze
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=org.kde.adaptabreath.desktop
 
 [kwinrc][WindowSwitcher]
 LayoutName=big_icons

@@ -4,6 +4,9 @@ cursorTheme=maia_cursors
 [kdeglobals][General]
 ColorScheme=AdaptaBreathLuna
 
+[kdeglobals][Icons]
+Theme=Papirus-Adapta-Maia
+
 [kdeglobals][KDE]
 widgetStyle=breeze
 
