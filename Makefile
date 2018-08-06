@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= aurorae color-schemes konsole Kvantum plasma wallpapers
+THEMES ?= aurorae color-schemes konsole Kvantum plasma sddm wallpapers
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
@@ -29,6 +29,7 @@ uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/desktoptheme/AdaptaBreathLuna
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.kde.adaptabreath.desktop
 	-rm -rf $(DESTDIR)$(PREFIX)/share/plasma/look-and-feel/org.kde.adaptabreathluna.desktop
+	-rm -rf $(DESTDIR)$(PREFIX)/share/sddm/themes/AdaptaBreath
 	-rm -rf $(DESTDIR)$(PREFIX)/share/wallpapers/AdaptaBreath
 
 _get_version:
