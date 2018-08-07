@@ -46,5 +46,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=
-Theme-Id=adaptabreath
+Theme-Id=AdaptaBreath
 Theme-API=2.0

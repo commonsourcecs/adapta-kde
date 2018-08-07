@@ -187,28 +187,28 @@ PlasmaCore.ColorScope {
 
                 actionItems: [
                     ActionButton {
-                        iconSource: "system-suspend"
+                        iconSource: "/usr/share/sddm/themes/AdaptaBreath/components/artwork/suspend_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Suspend")
                         onClicked: sddm.suspend()
                         enabled: sddm.canSuspend
                         visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
-                        iconSource: "system-reboot"
+                        iconSource: "/usr/share/sddm/themes/AdaptaBreath/components/artwork/restart_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Restart")
                         onClicked: sddm.reboot()
                         enabled: sddm.canReboot
                         visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
-                        iconSource: "system-shutdown"
+                        iconSource: "/usr/share/sddm/themes/AdaptaBreath/components/artwork/shutdown_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Shutdown")
                         onClicked: sddm.powerOff()
                         enabled: sddm.canPowerOff
                         visible: !inputPanel.keyboardActive
                     },
                     ActionButton {
-                        iconSource: "system-switch-user"
+                        iconSource: "/usr/share/sddm/themes/AdaptaBreath/components/artwork/switch_primary.svgz"
                         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Different User")
                         onClicked: mainStack.push(userPromptComponent)
                         enabled: true
