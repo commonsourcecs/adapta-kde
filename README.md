@@ -42,7 +42,6 @@ make uninstall
 
 ## Hacks for small screen resolution
 
-<<<<<<< HEAD
 - Install widgets [Active Window Control](https://github.com/kotelnik/plasma-applet-active-window-control) & [Application Menu](https://cgit.kde.org/plasma-workspace.git/tree/applets/appmenu) and move to panel
 - Disable window buttons & titlebar on decoration:
 
