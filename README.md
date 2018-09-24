@@ -52,7 +52,7 @@ ButtonWidth=0
 TitleHeight=0
 ```
 - Use [GTK3-noCSD](https://github.com/PCMan/gtk3-nocsd) script 
-=======
+
 - On some propietary video drivers Aurorae have wrong rendering by default with Adapta theme. See more info [here](https://github.com/PapirusDevelopmentTeam/adapta-kde/issues/21)
 
 ## Known issues
